@@ -1,0 +1,60 @@
+$ dmesg
+[     1.000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003,
+[     1.000000]     2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013,
+[     1.000000]     2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023,
+[     1.000000]     2024
+[     1.000000]     The NetBSD Foundation, Inc.  All rights reserved.
+[     1.000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[     1.000000]     The Regents of the University of California.  All rights reserved.
+
+[     1.000000] NetBSD 10.1 (CYRIX_cache_really_works) #2: Mon Dec 22 21:06:28 PST 2025
+[     1.000000]     vak@utm:/usr/src/sys/arch/i386/compile/CYRIX_cache_really_works
+[     1.000000] total memory = 32384 KB
+[     1.000000] avail memory = 29120 KB
+[     1.000000] timecounter: Timecounters tick every 10.000 msec
+[     1.000000] timecounter: Timecounter "i8254" frequency 1193182 Hz quality 100
+[     1.000003] mainbus0 (root)
+[     1.000003] cpu0 at mainbus0
+[     1.000003] cpu0: Use cpuid to serialize rdtsc
+[     1.000003] cpu0: NS/Cyrix 486-class
+[     1.000003] cpu0: node 0, package 0, core 0, smt 0
+[     1.000003] autoconfiguration error: WARNING: BUGGY CYRIX CACHE
+[     1.000003] isa0 at mainbus0
+[     1.000003] ne0 at isa0 port 0x280-0x29f irq 9
+[     1.000003] ne0: NE2000 Ethernet
+[     1.000003] ne0: Ethernet address 00:40:05:fa:24:77
+[     1.000003] com0 at isa0 port 0x3f8-0x3ff irq 4: ns8250 or ns16450, no fifo
+[     1.000003] com1 at isa0 port 0x2f8-0x2ff irq 3: ns8250 or ns16450, no fifo
+[     1.000003] pckbc0 at isa0 port 0x60-0x64
+[     1.000003] pckbd0 at pckbc0 (kbd slot)
+[     1.000003] pckbc0: using irq 1 for kbd slot
+[     1.000003] wskbd0 at pckbd0: console keyboard
+[     1.000003] wdc0 at isa0 port 0x1f0-0x1f7 irq 14
+[     1.000003] atabus0 at wdc0 channel 0
+[     1.000003] vga0 at isa0 port 0x3b0-0x3df iomem 0xa0000-0xbffff
+[     1.000003] wsdisplay0 at vga0 kbdmux 1: console (80x25, vt100 emulation), using wskbd0
+[     1.000003] wsmux1: connecting to wsdisplay0
+[     1.000003] fdc0 at isa0 port 0x3f0-0x3f7 irq 6 drq 2
+[     1.000003] WARNING: system needs entropy for security; see entropy(7)
+[     1.008798] timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+[     1.037967] fd0 at fdc0 drive 0: 1.44MB, 80 cyl, 2 head, 18 sec
+[     1.057980] fd1 at fdc0 drive 1: 1.2MB, 80 cyl, 2 head, 15 sec
+[     1.077904] wd0 at atabus0 drive 0
+[     1.147993] wd0: <FC-1307 SD to CF Adapter V1.4>
+[     1.160895] wd0: drive supports 1-sector PIO transfers, LBA addressing
+[     1.160895] wd0: 1963 MB, 3988 cyl, 16 head, 63 sec, 512 bytes/sect x 4020224 sectors
+[     1.200693] wd0: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 5 (Ultra/100)
+[     1.200693] wd1 at atabus0 drive 1
+[     1.228004] wd1: <CF Card>
+[     1.228004] wd1: drive supports 1-sector PIO transfers, LBA addressing
+[     1.228004] wd1: 1923 MB, 3909 cyl, 16 head, 63 sec, 512 bytes/sect x 3940272 sectors
+[     1.268094] wd1: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 5 (Ultra/100)
+[     1.547980] WARNING: 1 error while detecting hardware; check system log.
+[     1.607932] boot device: <unknown>
+[     1.618239] root on wd0a dumps on wd0b
+[     1.687909] kern.module.path=/stand/i386/10.1/modules
+[     5.427992] entropy: best effort
+[   164.310267] wsdisplay0: screen 1 added (80x25, vt100 emulation)
+[   164.780217] wsdisplay0: screen 2 added (80x25, vt100 emulation)
+[   165.240301] wsdisplay0: screen 3 added (80x25, vt100 emulation)
+[   165.690274] wsdisplay0: screen 4 added (80x25, vt100 emulation)

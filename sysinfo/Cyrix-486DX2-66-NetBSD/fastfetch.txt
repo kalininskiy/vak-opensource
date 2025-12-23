@@ -1,0 +1,16 @@
+$ fastfetch -l none
+vak@cyrix
+---------
+OS: NetBSD 10.1 i386
+Kernel: NetBSD 10.1
+Uptime: 1 hour, 53 mins
+Packages: 57 (pkgsrc)
+Shell: bashc
+Terminal: /dev/pts/0
+CPU: NS/Cyrix 486-class
+Memory: 18.84 MiB / 28.46 MiB (66%)
+Swap: 8.95 MiB / 128.00 MiB (7%)
+Disk (/): 1.14 GiB / 1.74 GiB (66%) - ffs
+Disk (/mnt): 538.32 MiB / 1.88 GiB (28%) - msdos
+Local IP (ne0): 192.168.86.23/24
+Locale: C

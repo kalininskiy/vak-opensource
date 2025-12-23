@@ -1,0 +1,10 @@
+$ netstat -i
+Name  Mtu   Network       Address              Ipkts Ierrs    Opkts Oerrs Colls
+ne0   1500  <Link>        00:40:05:fa:24:77    29728     0    16119     0     0
+ne0   1500  fe80::/64     fe80::240:5ff:fef    29728     0    16119     0     0
+ne0   1500  192.168.86/24 192.168.86.23        29728     0    16119     0     0
+ne0   1500  fd90:d1a5:78a fd90:d1a5:78a1:67    29728     0    16119     0     0
+lo0   33176 <Link>                                 0     0        0     0     0
+lo0   33176 127/8         localhost                0     0        0     0     0
+lo0   33176 localhost/128 ::1                      0     0        0     0     0
+lo0   33176 fe80::/64     fe80::1                  0     0        0     0     0
