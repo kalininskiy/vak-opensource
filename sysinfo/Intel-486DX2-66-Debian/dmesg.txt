@@ -1,0 +1,110 @@
+Linux version 2.6.18-6-486 (Debian 2.6.18.dfsg.1-26etch2) (dannf@debian.org) (gcc version 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)) #1 Fri Feb 19 23:22:25 UTC 2010
+BIOS-provided physical RAM map:
+ BIOS-88: 0000000000000000 - 000000000009f000 (usable)
+ BIOS-88: 0000000000100000 - 0000000002000000 (usable)
+32MB LOWMEM available.
+On node 0 totalpages: 8192
+  DMA zone: 4096 pages, LIFO batch:0
+  Normal zone: 4096 pages, LIFO batch:0
+DMI not present or invalid.
+ACPI: Unable to locate RSDP
+Allocating PCI resources starting at 10000000 (gap: 02000000:fe000000)
+Built 1 zonelists.  Total pages: 8192
+Kernel command line: root=/dev/hda2 rw BOOT_IMAGE=vmlinuz
+No local APIC present or hardware disabled
+mapped APIC to ffffd000 (01041000)
+Initializing CPU#0
+PID hash table entries: 256 (order: 8, 1024 bytes)
+Console: colour VGA+ 80x25
+Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Memory: 25200k/32768k available (1501k kernel code, 7180k reserved, 601k data, 256k init, 0k highmem)
+Checking if this processor honours the WP bit even in supervisor mode... Ok.
+Calibrating delay loop... 32.32 BogoMIPS (lpj=64640)
+Security Framework v1.0.0 initialized
+SELinux:  Disabled at boot.
+Capability LSM initialized
+Mount-cache hash table entries: 512
+CPU: After generic identify, caps: 00000003 00000000 00000000 00000000 00000000 00000000 00000000
+CPU: After vendor identify, caps: 00000003 00000000 00000000 00000000 00000000 00000000 00000000
+
+CPU: After all inits, caps: 00000003 00000000 00000000 00000000 00000000 00000000 00000000
+Compat vDSO mapped to ffffe000.
+CPU: Intel 486 DX/2 stepping 05
+Checking 'hlt' instruction... OK.
+checking if image is initramfs... it is
+Freeing initrd memory: 4236k freed
+NET: Registered protocol family 16
+EISA bus registered
+Setting up standard PCI resources
+ACPI: Interpreter disabled.
+Linux Plug and Play Support v0.97 (c) Adam Belay
+pnp: PnP ACPI: disabled
+PnPBIOS: Scanning system for PnP BIOS support...
+PnPBIOS: PnP BIOS support was not detected.
+PCI: System does not support PCI
+PCI: System does not support PCI
+NET: Registered protocol family 2
+IP route cache hash table entries: 256 (order: -2, 1024 bytes)
+TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+TCP bind hash table entries: 512 (order: -1, 2048 bytes)
+TCP: Hash tables configured (established 1024 bind 512)
+TCP reno registered
+audit: initializing netlink socket (disabled)
+audit(1766822460.041:1): initialized
+VFS: Disk quotas dquot_6.5.1
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Initializing Cryptographic API
+io scheduler noop registered
+io scheduler anticipatory registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+isapnp: Scanning for PnP cards...
+isapnp: No Plug & Play device found
+Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16450
+serial8250: ttyS1 at I/O 0x2f8 (irq = 3) is a 16450
+RAMDISK driver initialized: 16 RAM disks of 8192K size 1024 blocksize
+PNP: No PS/2 controller found. Probing ports directly.
+serio: i8042 AUX port at 0x60,0x64 irq 12
+serio: i8042 KBD port at 0x60,0x64 irq 1
+mice: PS/2 mouse device common for all mice
+EISA: Probing bus 0 at eisa.0
+EISA: Detected 0 cards.
+TCP bic registered
+NET: Registered protocol family 1
+NET: Registered protocol family 17
+NET: Registered protocol family 8
+NET: Registered protocol family 20
+Using IPI Shortcut mode
+Time: pit clocksource has been installed.
+Freeing unused kernel memory: 256k freed
+input: AT Translated Set 2 keyboard as /class/input/input0
+Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2
+ide: Assuming 50MHz system bus speed for PIO modes; override with idebus=xx
+Probing IDE interface ide0...
+hda: FC-1307 SD to CF Adapter V1.4, ATA DISK drive
+Probing IDE interface ide1...
+Probing IDE interface ide2...
+Probing IDE interface ide3...
+Probing IDE interface ide4...
+Probing IDE interface ide5...
+ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+hda: max request size: 128KiB
+hda: 3909632 sectors (2001 MB) w/8KiB Cache, CHS=3878/16/63
+hda: cache flushes supported
+ hda: hda1 hda2
+Attempting manual resume
+input: PC Speaker as /class/input/input1
+version 0 swap is no longer supported. Use mkswap -v1 /dev/hda1
+loop: loaded (max 8 devices)
+ne.c:v1.10 9/23/94 Donald Becker (becker@scyld.com)
+Last modified Nov 1, 2000 by Paul Gortmaker
+NE*000 ethercard probe at 0x280: 00 40 05 fa 24 77
+eth%d: NE2000 found at 0x280, using IRQ 9.
+device-mapper: ioctl: 4.7.0-ioctl (2006-06-24) initialised: dm-devel@redhat.com
+version 0 swap is no longer supported. Use mkswap -v1 /dev/hda1
+NET: Registered protocol family 10
+lo: Disabled Privacy Extensions
+IPv6 over IPv4 tunneling driver
+Adding 125456k swap on /dev/hda1.  Priority:-1 extents:1 across:125456k

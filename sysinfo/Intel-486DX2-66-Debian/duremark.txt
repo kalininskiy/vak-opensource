@@ -1,0 +1,10 @@
+
+DureMark 1.0 Results
+=======================
+Iterations      : 300
+Execution Time  : 8.5 sec
+List Workload   : 39.4%
+Matrix Workload : 16.8%
+State Workload  : 43.9%
+-----------------------
+Total Score     : 35.46 DureMark

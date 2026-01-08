@@ -1,0 +1,17 @@
+$ cat /proc/cpuinfo
+processor       : 0
+vendor_id       :
+cpu family      : 0
+model           : 0
+model name      : NS/Cyrix 486-class
+stepping        : unknown
+cpu MHz         : unknown
+apicid          : 0
+initial apicid  : 0
+fdiv_bug        : no
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 0
+wp              : yes
+flags           :
+clflush size    : 0

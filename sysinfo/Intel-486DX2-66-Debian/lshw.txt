@@ -1,0 +1,56 @@
+deb486
+    description: Computer
+    width: 32 bits
+  *-core
+       description: Motherboard
+       physical id: 1
+     *-memory
+          description: System memory
+          physical id: 0
+          size: 32MB
+     *-cpu
+          product: 486 DX/2
+          vendor: Intel Corp.
+          physical id: 1
+          bus info: cpu@0
+          version: 4.3.5
+          width: 32 bits
+          capabilities: fpu fpu_exception wp vme
+  *-ide
+       description: IDE Channel 0
+       physical id: 0
+       bus info: ide@0
+       logical name: ide0
+     *-disk
+          description: ATA Disk
+          product: FC-1307 SD to CF Adapter V1.4
+          physical id: 0
+          bus info: ide@0.0
+          logical name: /dev/hda
+          version: Rev 1.4
+          serial: 13495EF0
+          size: 1909MB
+          capacity: 1909MB
+          capabilities: ata dma lba iordy smart partitioned partitioned:dos
+          configuration: smart=on
+        *-volume:0
+             description: Linux swap / Solaris partition
+             physical id: 1
+             bus info: ide@0.0,1
+             logical name: /dev/hda1
+             capacity: 122MB
+             capabilities: primary nofs
+        *-volume:1
+             description: Linux filesystem partition
+             physical id: 2
+             bus info: ide@0.0,2
+             logical name: /dev/hda2
+             capacity: 1786MB
+             capabilities: primary bootable
+  *-network
+       description: Ethernet interface
+       physical id: 2
+       logical name: eth0
+       serial: 00:40:05:fa:24:77
+       capabilities: ethernet physical
+       configuration: broadcast=yes ip=192.168.86.40 multicast=yes
